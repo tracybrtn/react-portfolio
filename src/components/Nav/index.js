@@ -5,16 +5,16 @@ function Nav() {
       <nav>
         <ul className="d-flex flex-row">
           <li>
-            About me
+            <a>About me</a>
           </li>
           <li>
-            Portfolio
+            <a>Portfolio</a>
           </li>
           <li>
-            Contact
+            <a>Contact</a>
           </li>
           <li>
-            Resume
+            <a>Resume</a>
           </li>
         </ul>
       </nav>
