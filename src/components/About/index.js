@@ -1,7 +1,7 @@
 import React from "react"
 
 //About me section is the default section
-import avatarImage from "../src/assets/images/Avatar-Tracy.png";
+import avatarImage from "../../../src/assets/images/Avatar-Tracy.png";
 
 function About() {
   return(
