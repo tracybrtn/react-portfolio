@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      id="resume"
+    >
+      Resume
+    </h1>
+    <a
+      download=""
+      href="TRACY BURTON BRAVO - RESUME.pdf"
+    >
+      Download my resume
+    </a>
+    <h2>
+      Developer Proficiencies
+    </h2>
+    <ul>
+      <li>
+        HTML
+      </li>
+      <li>
+        CSS
+      </li>
+      <li>
+        JS
+      </li>
+      <li>
+        node.js
+      </li>
+      <li>
+        State
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

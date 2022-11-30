@@ -2,7 +2,10 @@ import React from 'react';
 
 // Import components
 import Header from './components/Header';
+//main content
 import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 
 //About me section is the default section
 import avatarImage from "../src/assets/images/Avatar-Tracy.png"
@@ -24,12 +27,8 @@ function App() {
           <h1 id="portfolio">Portfolio</h1>
           {/* TODO: add Project component */}
         </section>
-          {<Contact />}
-        <section>
-          <h1 id="resume">Resume</h1>
-          {/* TO DO: add downloadable Resume
-          and list of developer proficiencies*/}
-        </section>
+        {<Contact />}
+        {<Resume />}
       </main>
       <footer>
         {/*Footer component*/}
