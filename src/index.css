@@ -7,11 +7,20 @@
   width: auto;
 }
 
+:root {
+  --primary-color: #0c0c0c;
+  --secondary-color: #43474b;
+  --tertiary-color: #88898a;
+  --quaternary-color: #dcdcdc;
+  --quinary-color: #ffffff;
+}
+
+/*Import Roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,25 +30,62 @@ code {
     monospace;
 }
 
+h2 {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+/*HEADER*/
 header {
-  background-color: aquamarine;
+  background-color: var(--primary-color);
   position: sticky;
   position: -webkit sticky; 
   top: 0;
   z-index: 9999;
-  padding: 0px 0 10px 0;
+  padding: 10px 0 8px 0;
+  color: var(--quaternary-color);
+}
+
+header h1 {
+  color: var(--quaternary-color);
+  text-align: center;
 }
 
 nav ul {
   list-style: none;
 }
 
+/*End of HEADER*/
+
+/*FOOTER*/
 footer {
-  display: flex;
+  background-color: var(--quaternary-color);
+}
+
+footer div {
+  padding: 10px 5px;
 }
 
 .logo {
   max-height: 40px;
+}
+
+/*END OF FOOTER*/
+
+/*MAIN CONTENT*/
+main {
+  background-color: var(--quaternary-color);
+  padding: 10px 10px;
+}
+/*About Me*/
+#about-me {
+  text-align: center;
+  padding: 10px;
+  row-gap: 10px;
+}
+
+#about-me img {
+  max-width: 300px;
 }
 
 .image-container{

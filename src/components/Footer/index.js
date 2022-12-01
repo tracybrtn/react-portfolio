@@ -9,7 +9,7 @@ import WordpressLogo from "../../assets/images/wordpress-logo.png";
 //footer component
 function Footer() {
   return(
-    <footer>
+    <footer className="d-flex flex-row justify-content-center">
       <div>
         <a
           href="https://github.com/tracybrtn"
