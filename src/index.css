@@ -8,11 +8,11 @@
 }
 
 :root {
-  --primary-color: #0c0c0c;
-  --secondary-color: #43474b;
+  --primary-color: #ffffff;
+  --secondary-color: #dcdcdc;
   --tertiary-color: #88898a;
-  --quaternary-color: #dcdcdc;
-  --quinary-color: #ffffff;
+  --quaternary-color: #353535;
+
 }
 
 /*Import Roboto font*/
@@ -23,7 +23,12 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/assets/images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -37,17 +42,17 @@ h2 {
 
 /*HEADER*/
 header {
-  background-color: var(--primary-color);
   position: sticky;
   position: -webkit sticky; 
   top: 0;
   z-index: 9999;
   padding: 10px 0 8px 0;
-  color: var(--quaternary-color);
+  color: var(--primary-color);
 }
 
 header h1 {
-  color: var(--quaternary-color);
+  color: var(--primary-color);
+  font-weight: 900;
   text-align: center;
 }
 
@@ -58,8 +63,9 @@ nav ul {
 /*End of HEADER*/
 
 /*FOOTER*/
+
 footer {
-  background-color: var(--quaternary-color);
+  background-color: #ffffff14;
 }
 
 footer div {
@@ -74,25 +80,67 @@ footer div {
 
 /*MAIN CONTENT*/
 main {
-  background-color: var(--quaternary-color);
   padding: 10px 10px;
 }
+
 /*About Me*/
 #about-me {
   text-align: center;
   padding: 10px;
   row-gap: 10px;
+  color: var(--secondary-color);
 }
 
 #about-me img {
   max-width: 300px;
+  border-radius: 10%;
+  opacity: 0.9;
 }
 
+/*Contact*/
+
+#contact-form {
+  color: var(--secondary-color);
+}
+
+#contact-form input {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--quaternary-color);
+  width: 100%;
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+#contact-form textarea{
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--quaternary-color);
+  width: 100%;
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+ }
+
+ #contact form button {
+  color: var(--quaternary-color);
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+ }
+
 .image-container{
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 500px;
+  max-width: 500px;
 }
 
 .project-img{
-  height: 100%;
+  width: 100%;
 }

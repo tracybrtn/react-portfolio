@@ -36,8 +36,8 @@ function ContactForm() {
   };
 
   return (
-    <section className='d-flex flex-column'>
-      <h1 data-testid="h1tag" id='contact'>Contact me</h1>
+    <section id="contact" className='d-flex flex-column'>
+      <h2 data-testid="h1tag" id='contact'>Contact me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

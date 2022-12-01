@@ -43,7 +43,7 @@ function Portfolio() {
   ]
   return(
     <section>
-      <h1 id="portfolio">Portfolio</h1>
+      <h2 id="portfolio">Portfolio</h2>
       <div className="project-section">
             <Project projects={projects[0]}></Project>
             <Project projects={projects[1]}></Project>
