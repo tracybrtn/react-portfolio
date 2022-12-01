@@ -42,9 +42,9 @@ function Portfolio() {
     }
   ]
   return(
-    <section>
+    <section className="d-flex flex-column align-items-center">
       <h2 id="portfolio">Portfolio</h2>
-      <div className="project-section">
+      <div id="project-section" className="d-flex flex-column align-items-center">
             <Project projects={projects[0]}></Project>
             <Project projects={projects[1]}></Project>
             <Project projects={projects[2]}></Project>
