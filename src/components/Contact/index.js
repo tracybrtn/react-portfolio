@@ -35,7 +35,6 @@ function ContactForm() {
     }
   };
 
-
   return (
     <section>
       <h1 data-testid="h1tag" id='contact'>Contact me</h1>

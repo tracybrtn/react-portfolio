@@ -41,3 +41,12 @@ footer {
 .logo {
   max-height: 40px;
 }
+
+.image-container{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.project-img{
+  height: 100%;
+}
