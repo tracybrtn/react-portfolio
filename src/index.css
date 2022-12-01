@@ -55,8 +55,7 @@ header {
   color: var(--primary-color);
   background-image: url("../src/assets/images/background-image.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
+  background-attachment: scroll;
   z-index: 9999;
 }
 
@@ -188,4 +187,36 @@ main {
 
 .project-img{
   width: 100%;
+}
+
+/*END OF MAIN CONTENT */
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  header {
+    align-items: flex-end;
+    padding: 10px 10px 0 5px;
+   }
+
+  header nav ul {
+  align-items: flex-start;
+  column-gap: 14px;   
+  }
+
+  header nav a {
+  font-size: calc(1em + 1vw);
+  }
+
+  #about-me {
+    padding: 0px 50px 90px;
+  }
+
+  #contact-form {
+    padding: 0px 150px 100px;
+  }
+
+  #contact h2 {
+    text-align: center;
+  }
+
 }
