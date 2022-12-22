@@ -4,6 +4,10 @@ import Project from "../Project";
 function Portfolio() {
   //Array of 6 projects
   const projects = [
+    { title: "The Sun Hotel",
+      link: "https://the-sun-hotel-hcmc.herokuapp.com/",
+      img: "the-sun-hotel.png",
+      github: "https://github.com/tracybrtn/the-sun-hotel/",},
     {
       title: "Hamburger Helper Recipe Forum",
       link: "https://murmuring-dawn-13881.herokuapp.com/",
@@ -21,12 +25,6 @@ function Portfolio() {
       link: "https://github.com/tracybrtn/just-another-text-editor",
       img: "just-another-text-editor.png",
       github: "https://dry-river-17496.herokuapp.com/",
-    },
-    {
-      title: "Note-Taker",
-      link: "https://tracybrtn.github.io/notetaker-app/",
-      img: "note-taker.png",
-      github: "https://github.com/tracybrtn/notetaker-app",
     },
     {
       title: "Code Quiz",
