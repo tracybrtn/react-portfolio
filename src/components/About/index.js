@@ -6,13 +6,19 @@ import avatarImage from "../../../src/assets/images/Avatar-Tracy.png";
 function About() {
   return(
     <section id="about-me" className="d-flex flex-column">
-        <h2>About me</h2>
+      <div className="box">
+        <div>
+          <h2>About me</h2>
+        </div>
         <div className="container">
           <img src={avatarImage} alt="Tracy Burton Bravo smiling."></img>
         </div>
-        <p>
-          Full-stack web developer and global affairs graduate with plenty of experience in multicultural environments. Motivated professional comfortable in high-stress situations. Enthusiastic and reliable teammate with strong communication skills.
-        </p>
+        <div className="description">
+          <p>
+          Full stack web developer and global affairs graduate with an extensive record of teamwork and leadership experience. Motivated and reliable professional who thrives in fast-paced, dynamic environments. Third-culture kid, bilingual English and Spanish speaker, pop-culture connoisseur.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }

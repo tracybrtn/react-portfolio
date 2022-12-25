@@ -24,6 +24,7 @@ function Project(props){
             className="project-img" alt={alt}></img>
         </a>
       </div>
+      <br></br>
       <div className="project-info">
       <a 
           href={github}
