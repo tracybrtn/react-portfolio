@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7c361e20.css",
-    "main.js": "/react-portfolio/static/js/main.34ffadae.js",
+    "main.css": "/react-portfolio/static/css/main.f6239058.css",
+    "main.js": "/react-portfolio/static/js/main.fffc5ef1.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hamburger-helper.png": "/react-portfolio/static/media/hamburger-helper.5cd4cd7857667d084a0d.png",
-    "static/media/the-sun-hotel.png": "/react-portfolio/static/media/the-sun-hotel.889b63614ef8217dce3a.png",
+    "static/media/the-sun-hotel.png": "/react-portfolio/static/media/the-sun-hotel.1df5cdba439f28ca1efd.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.6814c275299dbf0c1127.png",
-    "static/media/TRACY BURTON BRAVO - RESUME.pdf": "/react-portfolio/static/media/TRACY BURTON BRAVO - RESUME.e004acfae42c5567c9a1.pdf",
     "static/media/travel-with-knowledge.png": "/react-portfolio/static/media/travel-with-knowledge.57a5ab9fc950df1e43bf.png",
     "static/media/background-image.jpg": "/react-portfolio/static/media/background-image.057488621412a09b9295.jpg",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.a135245b89b353c74c7c.png",
     "static/media/Avatar-Tracy.png": "/react-portfolio/static/media/Avatar-Tracy.5bfbec1fe933058562f2.png",
+    "static/media/TRACY BURTON BRAVO - RESUME.pdf": "/react-portfolio/static/media/TRACY BURTON BRAVO - RESUME.0ae6e18d88bc6606759a.pdf",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ec885abfb2641b0375d9.png",
     "static/media/just-another-text-editor.png": "/react-portfolio/static/media/just-another-text-editor.ab8bae7afa9298b86e37.png",
     "static/media/wordpress-logo.png": "/react-portfolio/static/media/wordpress-logo.43f77f3a1d8642fec38b.png",
     "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.93e947dcdea3a703bd31.png",
     "index.html": "/react-portfolio/index.html",
-    "main.7c361e20.css.map": "/react-portfolio/static/css/main.7c361e20.css.map",
-    "main.34ffadae.js.map": "/react-portfolio/static/js/main.34ffadae.js.map",
+    "main.f6239058.css.map": "/react-portfolio/static/css/main.f6239058.css.map",
+    "main.fffc5ef1.js.map": "/react-portfolio/static/js/main.fffc5ef1.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c361e20.css",
-    "static/js/main.34ffadae.js"
+    "static/css/main.f6239058.css",
+    "static/js/main.fffc5ef1.js"
   ]
 }
