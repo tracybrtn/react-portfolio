@@ -41,10 +41,10 @@ function ContactForm() {
       <div>
         <br></br>
         <p>
-          Send me an <a href="mailto: tracynburton@gmail.com">email</a> or...
+          Send me an email at: <a href="mailto: tracynburton@gmail.com">tracynburton@gmail.com</a>
         </p>
       </div>
-      <div className='form'>
+      {/* <div className='form'>
         <form id="contact-form" onSubmit={handleSubmit}>
           <h3>...fill out the contact form</h3>
           <div>
@@ -66,7 +66,7 @@ function ContactForm() {
             )}
           <button type="submit" data-testid="button">Submit</button>
         </form>
-      </div>
+      </div> */}
     </section>
   )
 }
