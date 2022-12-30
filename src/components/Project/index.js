@@ -8,6 +8,8 @@ function Project(props){
   const title = currentProject.title;
   const link = currentProject.link;
   const github = currentProject.github;
+  const description = currentProject.description;
+  const tech = currentProject.tech;
   const alt = `Deployed ${title} website`
 
   return (
@@ -23,6 +25,17 @@ function Project(props){
             src={require(`../../assets/projects/${img}`)}
             className="project-img" alt={alt}></img>
         </a>
+        <div className="hover-text">
+            <p>{description}</p>
+            <ul className="tech-list">
+              {tech.map((technologies) => (
+                <li 
+                  className="tech-item"
+                  key= {technologies}
+                >{technologies}</li>
+              ))}
+            </ul>
+        </div>
       </div>
       <br></br>
       <div className="project-info">
