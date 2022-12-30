@@ -15,19 +15,22 @@ function Project(props){
   return (
     <div className="project">
       <h3>{title}</h3>
-      <div className="image-container">
-        <a 
+      <div className="project-wrapper">
+        <div className="image-container">
+          <a 
           href={link}
           target="_blank"
           rel="noreferrer"
-        >
-          <img
-            src={require(`../../assets/projects/${img}`)}
-            className="project-img" alt={alt}></img>
-        </a>
+          >
+            <img
+              src={require(`../../assets/projects/${img}`)}
+              className="project-img" alt={alt}></img>
+          </a>
+        </div>
         <div className="hover-text">
             <p>{description}</p>
             <ul className="tech-list">
+                <li><b>Technologies used:</b></li>
               {tech.map((technologies) => (
                 <li 
                   className="tech-item"
@@ -37,7 +40,6 @@ function Project(props){
             </ul>
         </div>
       </div>
-      <br></br>
       <div className="project-info">
       <a 
           href={github}

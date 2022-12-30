@@ -1,39 +1,40 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 
 // import function to validate email
-import { validateEmail } from '../../utils/helpers';
+// import { validateEmail } from '../../utils/helpers';
 
 // Contact form function.
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  // const [formState, setFormState] = useState({ name: '', email: '', message: '' });
  
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+  // const [errorMessage, setErrorMessage] = useState('');
+  // const { name, email, message } = formState;
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  };
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   console.log(formState);
+  // };
 
-  function handleChange(e) {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({...formState, [e.target.name]: e.target.value })
-    }
-  };
+  // function handleChange(e) {
+  //   if (e.target.name === 'email') {
+  //     const isValid = validateEmail(e.target.value);
+  //     if (!isValid) {
+  //       setErrorMessage('Your email is invalid.');
+  //     } else {
+  //       setErrorMessage('');
+  //     }
+  //   } else {
+  //     if (!e.target.value.length) {
+  //       setErrorMessage(`${e.target.name} is required.`);
+  //     } else {
+  //       setErrorMessage('');
+  //     }
+  //   }
+  //   if (!errorMessage) {
+  //     setFormState({...formState, [e.target.name]: e.target.value })
+  //   }
+  // };
 
   return (
     <section id="contact" className='d-flex flex-column'>
