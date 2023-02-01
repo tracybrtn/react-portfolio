@@ -35,7 +35,7 @@ function Portfolio() {
       tech: ["manifest", "indexedDB", "service worker", "webpack"]
     },
     {
-      title: "Code Quiz",
+      title: "Coding Quiz",
       link: "https://tracybrtn.github.io/code-quiz/",
       img: "code-quiz.png",
       github: "https://github.com/tracybrtn/code-quiz",

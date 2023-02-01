@@ -188,8 +188,17 @@ main {
 .project {
   display: flex;
   flex-direction: column;
-  row-gap: .5vh;
+  row-gap: 1vh;
   margin-bottom: 2vh;
+  padding: .5vh;
+  justify-content: center;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  flex-basis: 10px;
 }
 
 .project-info a {
@@ -202,16 +211,6 @@ main {
 
 #project-section img {
   border-radius: 10px;
-}
-
-/*Container holding image and text*/
-.project-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  row-gap: 2vh;
-  text-align: center;
-  padding: 1vh;
 }
 
 .image-container {
@@ -300,26 +299,42 @@ main {
     flex-direction: row;
   }
 
-  .project-wrapper {
+  .project {
     flex-direction: row;
     column-gap: 2vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project h3 {
+    flex-basis: 100%
+  }
+
+  .project-info {
+    flex-basis: 100%;
+    justify-content: center;
   }
 
   .image-container {
-    max-height: auto;
-    max-width: auto;
-    flex-basis: 4;
+    max-height: 25vh;
+    max-width: 30vh;
   }
 
   .hover-text {
     font-size: 1.2vh;
-    flex-basis: 1
+    max-height: 25vh;
+    max-width: 30vh;
+  }
+
+  .project-info {
+    flex-direction: row;
+    column-gap: 10px;
   }
 
   .hover-text p {
     font-size: 1.5vh;
   }
-
 }
 
 @media screen and (min-width: 938px) {
@@ -333,15 +348,38 @@ main {
     border-radius: 30px;
   }
 
-  .hover-text p{
-    display: none;
-    position: absolute;
-    bottom: 0;
-    font-size: 2vh;
+  .project {
+    flex: 30%;
+    flex-direction: column;
+    justify-content: stretch;
+    column-gap: 1vh;
+    padding: 0;
+    flex-wrap: wrap;
+    vertical-align: top;
   }
 
-  a:hover + .hover-text p {
-    display: block;
+  .image-container {
+    max-width: 80vh;
+    max-height: max-content;
+  }
+
+  .hover-text p {
+    font-size: 2vh;
+
+  }
+
+  .hover-text {
+    font-size: 2vh;
+    max-width: max-content;
+    max-height: max-content;
+  }
+
+  #project-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 6vh;
+    margin: 4vh;
   }
 
 }

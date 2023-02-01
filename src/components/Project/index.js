@@ -15,7 +15,6 @@ function Project(props){
   return (
     <div className="project">
       <h3>{title}</h3>
-      <div className="project-wrapper">
         <div className="image-container">
           <a 
           href={link}
@@ -39,13 +38,17 @@ function Project(props){
               ))}
             </ul>
         </div>
-      </div>
-      <div className="project-info">
-      <a 
-          href={github}
-          target="_blank"
-          rel="noreferrer"
-      >Github Repository</a>
+        <div className="project-info">
+          <a 
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+          >Github Repository</a>
+          <a 
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+          >Live Website</a>
       </div>
     </div>
   )
