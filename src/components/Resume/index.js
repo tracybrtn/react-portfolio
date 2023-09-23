@@ -30,7 +30,7 @@ function Resume(){
         <p>Leadership</p>
         <p>Team Work</p>
         <p>Adaptability</p>
-        <p>Eng/Spa proficiency</p>
+        <p>English/Spanish proficiency</p>
         <p>Compassion</p>
         <p>Patience</p>
         <p>Positive Attitude</p>
