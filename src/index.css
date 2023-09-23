@@ -149,6 +149,7 @@ footer a {
 
 .description p {
   margin: 10px;
+  text-align: center;
 }
 
 .description span {
@@ -267,13 +268,6 @@ footer a {
     text-align: justify;
     flex-wrap: wrap;
   }
-
-  #about-me :nth-child(1) { order: 1; }
-  #about-me :nth-child(2) { order: 2; }
-  #about-me :nth-child(3) { order: 3; }
-  #about-me :nth-child(4) { order: 6; }
-  #about-me :nth-child(5) { order: 4; }
-  #about-me :nth-child(6) { order: 5; }
 
   .avatar-container {
     display: flex;
