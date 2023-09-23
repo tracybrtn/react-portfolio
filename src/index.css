@@ -21,6 +21,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../src/assets/images/background-image.jpg");
@@ -31,18 +32,17 @@ body {
 }
 
 h2 {
-  color: var(--primary-color);
   font-weight: 800;
 }
 
 h3 {
-  font-weight: 200;
-  color: var(--secondary-color)
+  font-weight: 900;
 }
 
 p {
   font-size: 1.3em;
   color: var(--primary-color);
+  font-weight: 100;
 }
 
 /*HEADER*/
@@ -126,6 +126,11 @@ main {
 
 .description span {
   font-weight: 600;
+}
+
+#about-me h2 {
+  color: var(--secondary-color);
+  font-weight: 200;
 }
 
 
@@ -249,13 +254,30 @@ main {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 4em;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  /*HEADER*/
   header {
     align-items: flex-end;
     padding: 10px 10px 0 5px;
-   }
-
-  h2 {
-    font-size: xx-large;
   }
 
   header nav ul {
@@ -263,22 +285,33 @@ main {
   column-gap: 14px;   
   }
 
-  header nav a {
-  font-size: calc(1em + 1vw);
+  header nav li {
+    font-size: 2em
   }
 
+  /*ABOUT*/
   #about-me {
-    padding: 100px 50px 90px;
+    padding: 20px 50px 40px;
+    text-align: justify;
   }
 
-  p {
-    font-size: x-large;
-  }
-
-  .box {
+  .description {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+  }
+
+  .photo-and-text {
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    align-items:center;
+  }
+
+  /*Nav*/
+  nav li {
+    font-size: 1.5em;
   }
 
   #contact-form {
@@ -289,8 +322,13 @@ main {
     text-align: center;
   }
 
-  body {
-    padding-bottom: auto;
+  /*Footer*/
+  footer {
+    padding: 10px;
+  }
+
+  .logo {
+    max-height: 60px;
   }
 
   form {

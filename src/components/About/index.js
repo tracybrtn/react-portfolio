@@ -9,13 +9,8 @@ import avatarImage from "../../../src/assets/images/Avatar-Tracy.png";
 function About() {
   return(
     <section id="about-me" className="d-flex flex-column">
-      <div>
-        <h2>About me</h2>
-      </div>
+      <h2>Hi! It's Tracy.</h2>
       <div className="description">
-        <h3>
-          Hi! It's Tracy.
-        </h3>
         <p>
           I am a&nbsp;
           <span>
@@ -31,22 +26,24 @@ function About() {
           .
         </p>
       </div>
-      <div className="container">
-        <img 
-          src={avatarImage} 
-          alt="Tracy Burton Bravo smiling.">
-        </img>
+      <div className="photo-and-text">
+        <div className="container">
+          <img 
+            src={avatarImage} 
+            alt="Tracy Burton Bravo smiling.">
+          </img>
+        </div>
+        <div className="description">
+          <p>
+            Third-culture kid,&nbsp;
+            <span>
+              bilingual English and Spanish speaker
+            </span>
+            , pop-culture connoisseur, and family genealogist.
+          </p>
+        </div>
       </div>
-      <div className="description">
-        <p>
-          Third-culture kid,&nbsp;
-          <span>
-            bilingual English and Spanish speaker
-          </span>
-          , pop-culture connoisseur, and family genealogist.
-        </p>
-      </div>
-      <h2>Welcome to my portfolio!</h2>
+        <h3>Welcome to my portfolio!</h3>
     </section>
   );
 }
