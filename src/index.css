@@ -33,6 +33,7 @@ body {
 
 h2 {
   font-weight: 800;
+  font-size: 2em;
 }
 
 h3 {
@@ -51,6 +52,7 @@ header {
   position: -webkit sticky; 
   top: 0;
   z-index: 9999;
+  flex-direction: column;
   padding: 10px 0 8px 0;
   color: var(--primary-color);
   background-image: url("../src/assets/images/background-image.jpg");
@@ -109,6 +111,7 @@ main {
 
 /*About Me*/
 #about-me {
+  flex-direction: column;
   text-align: center;
   padding: 10px;
   row-gap: 10px;
@@ -120,7 +123,7 @@ main {
   opacity: 0.9;
 }
 
-.description {
+.description p {
   margin: 10px;
 }
 
@@ -132,7 +135,6 @@ main {
   color: var(--secondary-color);
   font-weight: 200;
 }
-
 
 /*Contact*/
 #contact-form {
@@ -178,6 +180,10 @@ main {
   text-align: center;
   row-gap: 10px;
  }
+
+ #resume a {
+  font-size: 2em;
+}
 
  #resume ul {
   display: flex;
@@ -293,20 +299,23 @@ main {
   #about-me {
     padding: 20px 50px 40px;
     text-align: justify;
+    flex-wrap: wrap;
   }
 
-  .description {
+  #about-me :nth-child(1) { order: 1; }
+  #about-me :nth-child(2) { order: 2; }
+  #about-me :nth-child(3) { order: 3; }
+  #about-me :nth-child(4) { order: 6; }
+  #about-me :nth-child(5) { order: 4; }
+  #about-me :nth-child(6) { order: 5; }
+
+  .avatar-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
 
-  .photo-and-text {
-    display: flex;
-  }
-
-  .container {
-    display: flex;
-    align-items:center;
+  h3 {
+    font-weight: 600;
   }
 
   /*Nav*/
@@ -387,14 +396,21 @@ main {
 }
 
 @media screen and (min-width: 938px) {
-  #about-me {
-    padding: 10px 50px 90px;
+/*HEADER*/
+  header {
+    padding: 5px 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  .description {
-    background-color: rgba(2, 2, 75, 0.325);
-    padding: 20px;
-    border-radius: 30px;
+/*ABOUT*/
+  #about-me {
+    padding: 100px 50px 90px;
+  }
+
+  #about-me h2 {
+    text-align: center;
   }
 
   .project {
@@ -429,6 +445,19 @@ main {
     justify-content: center;
     column-gap: 6vh;
     margin: 4vh;
+  }
+
+  /*FOOTER*/
+  footer {
+   column-gap: 2em;
+  }
+
+  footer a:hover{
+    background-color: #3072dd46;
+    -webkit-box-shadow:0px 0px 99px 25px rgba(21,108,194,0.9);
+    -moz-box-shadow: 0px 0px 99px 25px rgba(21,108,194,0.9);
+    box-shadow: 0px 0px 99px 25px rgba(21,108,194,0.9);
+
   }
 
 }

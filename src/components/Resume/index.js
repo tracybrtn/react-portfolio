@@ -6,7 +6,7 @@ function Resume(){
 
   <section id="resume" className="d-flex flex-column justify-content-center">
     <h2>Resume</h2>
-    <a href={ResumePdf} download>Download my resume</a>
+    <a  className="resume-text" href={ResumePdf} download>Download my resume</a>
     <br></br>
     <div id="resume-proficiencies" className="d-flex justify-content-center">
       <div>

@@ -10,7 +10,7 @@ function Header(props) {
   } = props;
 
   return(
-    <header className="d-flex flex-column">
+    <header className="d-flex">
       <h1>Tracy Burton Bravo</h1>
       <Nav
         currentSection={currentSection}
