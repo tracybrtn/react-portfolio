@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fc9fd232.css",
-    "main.js": "/react-portfolio/static/js/main.a0cb58bf.js",
+    "main.css": "/react-portfolio/static/css/main.96f2896b.css",
+    "main.js": "/react-portfolio/static/js/main.c3d671a4.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hamburger-helper.png": "/react-portfolio/static/media/hamburger-helper.5cd4cd7857667d084a0d.png",
     "static/media/the-sun-hotel.png": "/react-portfolio/static/media/the-sun-hotel.1df5cdba439f28ca1efd.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.6814c275299dbf0c1127.png",
+    "static/media/little-altar.png": "/react-portfolio/static/media/little-altar.c81bb47bbcfbd78798e6.png",
     "static/media/travel-with-knowledge.png": "/react-portfolio/static/media/travel-with-knowledge.57a5ab9fc950df1e43bf.png",
     "static/media/background-image.jpg": "/react-portfolio/static/media/background-image.057488621412a09b9295.jpg",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.a135245b89b353c74c7c.png",
     "static/media/Avatar-Tracy.png": "/react-portfolio/static/media/Avatar-Tracy.5bfbec1fe933058562f2.png",
-    "static/media/TRACY BURTON BRAVO - RESUME.pdf": "/react-portfolio/static/media/TRACY BURTON BRAVO - RESUME.7ea7016e0173da87d416.pdf",
+    "static/media/TRACY BURTON BRAVO - RESUME.pdf": "/react-portfolio/static/media/TRACY BURTON BRAVO - RESUME.fbb66a178d6c4eb3f74a.pdf",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ec885abfb2641b0375d9.png",
     "static/media/just-another-text-editor.png": "/react-portfolio/static/media/just-another-text-editor.ab8bae7afa9298b86e37.png",
     "static/media/wordpress-logo.png": "/react-portfolio/static/media/wordpress-logo.43f77f3a1d8642fec38b.png",
+    "static/media/email-logo.png": "/react-portfolio/static/media/email-logo.6eb3b30a43f402bfee9b.png",
     "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.93e947dcdea3a703bd31.png",
     "index.html": "/react-portfolio/index.html",
-    "main.fc9fd232.css.map": "/react-portfolio/static/css/main.fc9fd232.css.map",
-    "main.a0cb58bf.js.map": "/react-portfolio/static/js/main.a0cb58bf.js.map",
+    "main.96f2896b.css.map": "/react-portfolio/static/css/main.96f2896b.css.map",
+    "main.c3d671a4.js.map": "/react-portfolio/static/js/main.c3d671a4.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc9fd232.css",
-    "static/js/main.a0cb58bf.js"
+    "static/css/main.96f2896b.css",
+    "static/js/main.c3d671a4.js"
   ]
 }
