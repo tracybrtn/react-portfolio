@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.96f2896b.css",
+    "main.css": "/react-portfolio/static/css/main.f0407d35.css",
     "main.js": "/react-portfolio/static/js/main.c3d671a4.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hamburger-helper.png": "/react-portfolio/static/media/hamburger-helper.5cd4cd7857667d084a0d.png",
@@ -18,12 +18,12 @@
     "static/media/email-logo.png": "/react-portfolio/static/media/email-logo.6eb3b30a43f402bfee9b.png",
     "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.93e947dcdea3a703bd31.png",
     "index.html": "/react-portfolio/index.html",
-    "main.96f2896b.css.map": "/react-portfolio/static/css/main.96f2896b.css.map",
+    "main.f0407d35.css.map": "/react-portfolio/static/css/main.f0407d35.css.map",
     "main.c3d671a4.js.map": "/react-portfolio/static/js/main.c3d671a4.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f2896b.css",
+    "static/css/main.f0407d35.css",
     "static/js/main.c3d671a4.js"
   ]
 }
