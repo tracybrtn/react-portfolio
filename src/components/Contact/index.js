@@ -39,7 +39,7 @@ function ContactForm() {
   return (
     <section id="contact" className='d-flex flex-column'>
       <h2 data-testid="h1tag" id='contact'>Contact me</h2>
-      <div>
+      <div className='contact-email'>
         <br></br>
         <p>
           Send me an email at: <a href="mailto: tracynburton@gmail.com">tracynburton@gmail.com</a>

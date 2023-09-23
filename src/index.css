@@ -46,6 +46,10 @@ p {
   font-weight: 100;
 }
 
+main {
+  padding: 10px 10px;
+}
+
 /*HEADER*/
 header {
   position: sticky;
@@ -68,9 +72,12 @@ header h1 {
   text-align: center;
 }
 
-
 nav ul {
   list-style: none;
+}
+
+nav li {
+  color: var(--primary-color);
 }
 
 .navActive span {
@@ -79,10 +86,13 @@ nav ul {
  padding: 6px;
 }
 
+nav span{
+  cursor: pointer;
+}
+
 /*End of HEADER*/
 
 /*FOOTER*/
-
 footer {
   background-color: #ffffff14;
   position: absolute;
@@ -101,13 +111,7 @@ footer a {
 .logo {
   max-height: 40px;
 }
-
 /*END OF FOOTER*/
-
-/*MAIN CONTENT*/
-main {
-  padding: 10px 10px;
-}
 
 /*About Me*/
 #about-me {
@@ -137,6 +141,11 @@ main {
 }
 
 /*Contact*/
+
+.contact-email{
+  height: 80vh;
+}
+
 #contact-form {
   color: var(--secondary-color);
 }
@@ -216,6 +225,10 @@ main {
   justify-content: center;
 }
 
+#project-section p, a, li {
+  color: var(--secondary-color);
+}
+
 .project-info {
   display: flex;
   flex-direction: column;
@@ -224,7 +237,6 @@ main {
 }
 
 .project-info a {
-  color: var(--quaternary-color);
   background-color: rgba(255, 255, 255, 0.777);
   border-radius: 10px;
   padding: 3px;
@@ -236,13 +248,14 @@ main {
 }
 
 .image-container {
-  max-height: 475px;
-  max-width: 475px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
   width: 100%;
-  display: block;
 }
 
 .hover-text {
@@ -292,7 +305,7 @@ main {
   }
 
   header nav li {
-    font-size: 2em
+    font-size: 2em;
   }
 
   /*ABOUT*/
@@ -322,6 +335,8 @@ main {
   nav li {
     font-size: 1.5em;
   }
+
+/*Contact*/
 
   #contact-form {
     padding: 0px 150px 100px;
@@ -361,8 +376,6 @@ main {
     flex-direction: row;
     column-gap: 2vh;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
   }
 
   .project h3 {
@@ -374,15 +387,16 @@ main {
     justify-content: center;
   }
 
+  .description-text {
+    font-size: 1.3em;
+  }
+
   .image-container {
-    max-height: 25vh;
-    max-width: 30vh;
+    flex-basis: 60%;
   }
 
   .hover-text {
-    font-size: 1.2vh;
-    max-height: 25vh;
-    max-width: 30vh;
+    flex-basis: 30%;
   }
 
   .project-info {
@@ -390,9 +404,6 @@ main {
     column-gap: 10px;
   }
 
-  .hover-text p {
-    font-size: 1.5vh;
-  }
 }
 
 @media screen and (min-width: 938px) {
@@ -459,5 +470,4 @@ main {
     box-shadow: 0px 0px 99px 25px rgba(21,108,194,0.9);
 
   }
-
 }

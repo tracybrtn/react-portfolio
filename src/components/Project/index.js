@@ -27,7 +27,7 @@ function Project(props){
           </a>
         </div>
         <div className="hover-text">
-            <p>{description}</p>
+            <p className="description-text">{description}</p>
             <ul className="tech-list">
                 <li><b>Technologies used:</b></li>
               {tech.map((technologies) => (

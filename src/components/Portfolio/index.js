@@ -4,6 +4,14 @@ import Project from "../Project";
 function Portfolio() {
   //Array of 6 projects
   const projects = [
+    {
+      title: "Little Altar",
+      link: "https://tracybrtn.github.io/little-altar/",
+      img: "little-altar.png",
+      github: "https://github.com/tracybrtn/little-altar",
+      description: "Front-end application that showcases my genealogy research.",
+      tech: ["React", "CSS", "JavaScript", "Node.js"],
+    },
     { title: "The Sun Hotel",
       link: "https://the-sun-hotel-hcmc.herokuapp.com/",
       img: "the-sun-hotel.png",
@@ -41,14 +49,6 @@ function Portfolio() {
       github: "https://github.com/tracybrtn/code-quiz",
       description: "JavaScript timed coding quiz with multiple-choice questions",
       tech: ["HTML5", "CSS", "JavaScript"],
-    },
-    {
-      title: "Weather Dashboard",
-      link: "https://tracybrtn.github.io/weather-dashboard/",
-      img: "weather-dashboard.png",
-      github: "https://github.com/tracybrtn/weather-dashboard",
-      description: "Front-end application that provides current and future weather information for cities around the world.",
-      tech: ["HTML", "CSS", "JavaScript", "Open Weather API"],
     }
   ]
   return(
