@@ -12,7 +12,7 @@
   --secondary-color: #dcdcdc;
   --tertiary-color: #88898a;
   --quaternary-color: #353535;
-
+  --quinary-color: #3072dd84;
 }
 
 /*Import Roboto font*/
@@ -27,10 +27,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 100vh;
   padding-bottom: 10vh;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -73,6 +71,12 @@ nav ul {
   list-style: none;
 }
 
+.navActive span {
+ background-color: var(--quinary-color);
+ border-radius: 10%;
+ padding: 6px;
+}
+
 /*End of HEADER*/
 
 /*FOOTER*/
@@ -86,6 +90,10 @@ footer {
 
 footer div {
   padding: 10px 5px;
+}
+
+footer a {
+  align-items: center;
 }
 
 .logo {

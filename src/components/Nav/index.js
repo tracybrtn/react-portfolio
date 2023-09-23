@@ -13,7 +13,7 @@ function Nav(props) {
   return(
       <nav>
         <ul className="d-flex flex-row">
-          <li className={currentSection === "about" ? "mx-2 navActive" : "mx-2"}>
+          <li className={currentSection === "about" ? "navActive" : "mx-2"}>
             <span onClick={() => setCurrentSection("about")}>About me</span>
           </li>
           <li className={currentSection === "portfolio" ? "mx-2 navActive" : "mx-2"}>
