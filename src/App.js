@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 // Import components
 import Header from './components/Header';
-import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+
 //main content
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
 
 
 function App() {
@@ -20,10 +20,6 @@ function App() {
         return <About />;
       case "portfolio":
         return <Portfolio />;
-      case "contact":
-        return <Contact />;
-      case "resume":
-        return <Resume />
       //default is to return the about me section
       default:
         return <About />;
@@ -32,7 +28,10 @@ function App() {
   return (
     <div>
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection}></Header>
-      <main>{renderSection()}</main>
+      <main>
+        {renderSection()}
+        <Contact/>
+      </main>
       {<Footer />}
     </div>
   );

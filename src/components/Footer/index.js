@@ -5,6 +5,7 @@ import React from "react"
 import GithubLogo from "../../assets/images/github-logo.png";
 import LinkedInLogo from "../../assets/images/linkedin-logo.png";
 import WordpressLogo from "../../assets/images/wordpress-logo.png";
+import EmailLogo from "../../assets/images/email-logo.png"
 
 //footer component
 function Footer() {
@@ -43,6 +44,16 @@ function Footer() {
             src={WordpressLogo}
             alt="Wordpress"
             className="logo">
+          </img>
+        </a>
+      </div>
+      <div>
+        <a 
+          href="mailto: tracynburton@gmail.com">
+            <img
+              src={EmailLogo}
+              alt="Email"
+              className="logo">
           </img>
         </a>
       </div>

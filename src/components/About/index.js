@@ -1,4 +1,3 @@
-//About me section is the default section
 //import dependencies
 import React from "react"
 
@@ -24,12 +23,6 @@ function About() {
         </span>
         .
       </p>
-      <div className="avatar-container">
-        <img 
-          src={avatarImage} 
-          alt="Tracy Burton Bravo smiling.">
-        </img>
-      </div>
       <p className="description">
         Third-culture kid,&nbsp;
         <span>
@@ -37,6 +30,12 @@ function About() {
         </span>
         , pop-culture connoisseur, and family genealogist.
       </p>
+      <div className="avatar-container">
+        <img 
+          src={avatarImage} 
+          alt="Tracy Burton Bravo smiling.">
+        </img>
+      </div>
       <h3>Welcome to my portfolio!</h3>
     </section>
   );

@@ -113,6 +113,26 @@ footer a {
 }
 /*END OF FOOTER*/
 
+/*CONTACT*/
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  background-color: #3072dd23;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+#contact h2 {
+  font-weight: 100;
+}
+
+#contact a {
+  color: var(--quaternary-color);
+}
+/*END OF CONTACT*/
+
 /*About Me*/
 #about-me {
   flex-direction: column;
@@ -138,72 +158,6 @@ footer a {
 #about-me h2 {
   color: var(--secondary-color);
   font-weight: 200;
-}
-
-/*Contact*/
-
-.contact-email{
-  height: 80vh;
-}
-
-#contact-form {
-  color: var(--secondary-color);
-}
-
-#contact-form input {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--quaternary-color);
-  width: 100%;
-  margin-bottom: 15px; 
-  border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
-}
-
-#contact-form textarea{
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--quaternary-color);
-  width: 100%;
-  margin-bottom: 15px; 
-  border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
- }
-
- #contact form button {
-  color: var(--quaternary-color);
-  background-color: var(--secondary-color);
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10px;
- }
-
- /*Resume*/
- #resume {
-  color: var(--primary-color);
-  text-align: center;
-  row-gap: 10px;
- }
-
- #resume a {
-  font-size: 2em;
-}
-
- #resume ul {
-  display: flex;
-  flex-direction: column;
-  margin-right: -4px;
-  margin-bottom: -4px;
- }
-
-#resume-proficiencies {
-  row-gap: 10px;
-  flex-direction: column;
 }
 
 /*Portfolio*/
@@ -280,7 +234,6 @@ footer a {
 
   h2 {
     font-size: 4em;
-    text-align: left;
   }
 
   h3 {
@@ -336,16 +289,6 @@ footer a {
     font-size: 1.5em;
   }
 
-/*Contact*/
-
-  #contact-form {
-    padding: 0px 150px 100px;
-  }
-
-  #contact h2 {
-    text-align: center;
-  }
-
   /*Footer*/
   footer {
     padding: 10px;
@@ -353,23 +296,6 @@ footer a {
 
   .logo {
     max-height: 60px;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #contact p {
-    text-align: center;
-  }
-
-  .form {
-    padding-top: 100px;
-  }
-
-  #resume-proficiencies{
-    flex-direction: row;
   }
 
   .project {
@@ -441,13 +367,10 @@ footer a {
 
   .hover-text p {
     font-size: 2vh;
-
   }
 
   .hover-text {
     font-size: 2vh;
-    max-width: max-content;
-    max-height: max-content;
   }
 
   #project-section {
@@ -468,6 +391,11 @@ footer a {
     -webkit-box-shadow:0px 0px 99px 25px rgba(21,108,194,0.9);
     -moz-box-shadow: 0px 0px 99px 25px rgba(21,108,194,0.9);
     box-shadow: 0px 0px 99px 25px rgba(21,108,194,0.9);
+  }
 
+  .contact-box {
+    padding: 20px;
+    margin-bottom: 4em;
+    border-radius: 0px;
   }
 }
