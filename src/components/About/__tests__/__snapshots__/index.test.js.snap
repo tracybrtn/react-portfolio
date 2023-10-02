@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section
+    class="d-flex"
+    id="about-me"
+  >
+    <h2>
+      Hi! It's Tracy.
+    </h2>
+    <p
+      class="description"
+    >
+      I am a 
+      <span>
+        MERN stack developer
+      </span>
+       and global affairs graduate with an extensive record of teamwork and leadership experience.
+    </p>
+    <p
+      class="description"
+    >
+      Motivated and reliable professional who thrives in 
+      <span>
+        fast-paced and dynamic environments
+      </span>
+      .
+    </p>
+    <p
+      class="description"
+    >
+      Third-culture kid, 
+      <span>
+        bilingual English and Spanish speaker
+      </span>
+      , pop-culture connoisseur, and family genealogist.
+    </p>
+    <div
+      class="avatar-container"
+    >
+      <img
+        alt="Tracy Burton Bravo smiling."
+        src="Avatar-Tracy.png"
+      />
+    </div>
+    <h3>
+      Welcome to my portfolio!
+    </h3>
+  </section>
+</DocumentFragment>
+`;
